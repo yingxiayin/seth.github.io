@@ -1,0 +1,93 @@
+body{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+#outContainer{
+  position:absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+}
+
+#container{
+  position: absolute;
+  z-index: 80;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #fa8200;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
+  display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1.1fr 2fr 1.1fr;
+  grid-template-areas: "head head head" "list recipe shopping";
+}
+.myTitle{
+  font-family: 'Anton',sans-serif;
+  font-size: 200px;
+  margin: 130px 100px;
+}
+.pTitle{
+  line-height: 200px;
+  margin: 0;
+  padding: 0;
+}
+.myIntroduction{
+  font-family: 'Roboto',sans-serif;
+  font-size: 12px;
+  margin: 200px 0 0 0;
+}
+#work01{
+  position: absolute;
+  z-index: 70;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
+  display: grid;
+}
+#work02{
+  position: absolute;
+  z-index: 60;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
+  display: grid;
+}
+#work03{
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
+  display: grid;
+}
+#work04{
+  position: absolute;
+  z-index: 40;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
+  display: grid;
+}
