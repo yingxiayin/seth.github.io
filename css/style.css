@@ -2,7 +2,6 @@ body{
   background-color: white;
   height: 100%;
   width: 100%;
-  margin: 0;
 }
 #outContainer{
   position:absolute;
@@ -20,18 +19,25 @@ body{
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-color: #fa8200;
+  background-color: #7f9db9;
   overflow: hidden;
   box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
   display: grid;
   grid-template-rows: 10rem minmax(100rem, auto);
-  grid-template-columns: 1.1fr 2fr 1.1fr;
-  grid-template-areas: "head head head" "list recipe shopping";
+  grid-template-columns: 1.2fr 0.6fr 2fr;
+  grid-template-areas: "head head head" "page mystudy title";
+}
+.pNum{
+  margin: 3% 0 0 3%;
+  color: black;
+  font-family: 'Anton', sans-serif;
 }
 .myTitle{
   font-family: 'Anton',sans-serif;
   font-size: 200px;
-  margin: 130px 100px;
+  color: black;
+  position: fixed;
+  margin: 6% 0 0 50%;
 }
 .pTitle{
   line-height: 200px;
@@ -40,8 +46,12 @@ body{
 }
 .myIntroduction{
   font-family: 'Roboto',sans-serif;
-  font-size: 12px;
-  margin: 200px 0 0 0;
+  font-size: 16px;
+  font-weight: 100;
+  color: black;
+  margin: 22% 3% 0 0;
+  text-align: right;
+  white-space: pre-line;
 }
 #work01{
   position: absolute;
@@ -54,6 +64,9 @@ body{
   background-color: #f4f4f4;
   box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
   display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1.2fr 0.6fr 2fr;
+  grid-template-areas: "head head head" "page mystudy title";
 }
 #work02{
   position: absolute;
@@ -66,6 +79,9 @@ body{
   background-color: #f4f4f4;
   box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
   display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1.2fr 0.6fr 2fr;
+  grid-template-areas: "head head head" "page mystudy title";
 }
 #work03{
   position: absolute;
@@ -78,6 +94,9 @@ body{
   background-color: #f4f4f4;
   box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
   display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1.2fr 0.6fr 2fr;
+  grid-template-areas: "head head head" "page mystudy title";
 }
 #work04{
   position: absolute;
@@ -90,4 +109,7 @@ body{
   background-color: #f4f4f4;
   box-shadow: 0 2rem 6rem 0.5rem rgba(100, 90, 90, 0.4);
   display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1.2fr 0.6fr 2fr;
+  grid-template-areas: "head head head" "page mystudy title";
 }
