@@ -35,6 +35,8 @@ function move(e) {
   // }
 }
 
-
+setTimeout(function(){
+  document.getElementById("odometer").innerHTML = 456;
+}, 1000);
 
 
